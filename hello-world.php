@@ -18,6 +18,9 @@
       <div class="col-12 mt-5">
           <?php include 'arrays.php'; ?>
       </div>
+      <div class="col-12 mt-5">
+          <?php include 'functions.php'; ?>
+      </div>
     </div>
   </div>
   <?php include "footer.php";?>

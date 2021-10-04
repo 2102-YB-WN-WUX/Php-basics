@@ -49,3 +49,15 @@ for ($i=0; $i <10; $i++){
   echo "<br>The number is now " . $number;
 }
 ?>
+
+<h3 class="mt-5">Another Loop</h3>
+<?php
+for ($i=0; $i<10; $i++){
+  // echo "<p>This is an interation of the loop: </p>" . $i;
+  // we're in PHP here
+  ?>
+  <h4>The value of $i is = <?php echo $i; ?></h4>
+  <?php
+}
+
+?>
